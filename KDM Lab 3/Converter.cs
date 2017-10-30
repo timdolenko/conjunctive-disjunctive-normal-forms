@@ -147,7 +147,7 @@ namespace KDM_Lab_3
                 case '!':
                     return 5;
                 default:
-                    throw new ArgumentException("Rossz parameter");
+                    throw new ArgumentException("Wrong parameter");
             }
         }
     }

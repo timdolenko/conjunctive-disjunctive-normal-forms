@@ -9,11 +9,11 @@ namespace KDM_Lab_3
     public class Formula
     {
         //Negation !
-        //disjunction ||
-        //conjunction &&
-        //equals =
-        //->
-        //! ν ^ = →
+        //disjunction ν
+        //conjunction ^
+        //equals ~
+        //ifThen →
+        //! ν ^ ~ →
 
         List<TruthColumn> _truthTable;
 
