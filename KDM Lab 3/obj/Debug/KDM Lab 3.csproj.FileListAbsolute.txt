@@ -1,0 +1,11 @@
+c:\users\zao.ccd.000\documents\visual studio 2015\Projects\KDM Lab 3\KDM Lab 3\bin\Debug\KDM Lab 3.exe.config
+C:\Users\Sispo\Desktop\KDM Lab 3\KDM Lab 3\bin\Debug\KDM Lab 3.exe.config
+C:\Users\Sispo\Desktop\KDM Lab 3\KDM Lab 3\obj\Debug\KDM Lab 3.csprojResolveAssemblyReference.cache
+C:\Users\Sispo\Desktop\KDM Lab 3\KDM Lab 3\obj\Debug\KDM_Lab_3.Properties.Resources.resources
+C:\Users\Sispo\Desktop\KDM Lab 3\KDM Lab 3\obj\Debug\KDM Lab 3.csproj.GenerateResource.Cache
+C:\Users\Sispo\Desktop\KDM Lab 3\KDM Lab 3\bin\Debug\KDM Lab 3.exe
+C:\Users\Sispo\Desktop\KDM Lab 3\KDM Lab 3\bin\Debug\KDM Lab 3.pdb
+C:\Users\Sispo\Desktop\KDM Lab 3\KDM Lab 3\obj\Debug\KDM Lab 3.exe
+C:\Users\Sispo\Desktop\KDM Lab 3\KDM Lab 3\obj\Debug\KDM Lab 3.pdb
+C:\Users\Sispo\Desktop\KDM Lab 3\KDM Lab 3\obj\Debug\KDM_Lab_3.InputScreen.resources
+C:\Users\Sispo\Desktop\KDM Lab 3\KDM Lab 3\obj\Debug\KDM_Lab_3.ResultsScreen.resources
