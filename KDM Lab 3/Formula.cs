@@ -9,11 +9,11 @@ namespace KDM_Lab_3
     public class Formula
     {
         //Negation !
-        //disjunction ν
-        //conjunction ^
-        //equals ~
-        //ifThen →
-        //! ν ^ ~ →
+        //disjunction ||
+        //conjunction &&
+        //equals =
+        //->
+        //! ν ^ = →
 
         List<TruthColumn> _truthTable;
 
@@ -47,9 +47,12 @@ namespace KDM_Lab_3
                         string subStr = "";
                         for(int j = 0; j < 3; j++)
                         {
-                            if (truthTable[j].stringDesc.Length == 1)
+                            if (j < truthTable.Count)
                             {
-                                subStr += truthTable[j].truthArray[i] ? truthTable[j].stringDesc : "!" + truthTable[j].stringDesc;
+                                if (truthTable[j].stringDesc.Length == 1)
+                                {
+                                    subStr += truthTable[j].truthArray[i] ? truthTable[j].stringDesc : "!" + truthTable[j].stringDesc;
+                                }
                             }
                         }
                         str += str.Length == 0 ? subStr : "ν" + subStr;
@@ -71,10 +74,13 @@ namespace KDM_Lab_3
                         string subStr = "(";
                         for (int j = 0; j < 3; j++)
                         {
-                            if (truthTable[j].stringDesc.Length == 1)
+                            if (j < truthTable.Count)
                             {
-                                subStr += subStr.Length == 1 ? "" : "ν";
-                                subStr += !truthTable[j].truthArray[i] ? truthTable[j].stringDesc : "!" + truthTable[j].stringDesc;
+                                if (truthTable[j].stringDesc.Length == 1)
+                                {
+                                    subStr += subStr.Length == 1 ? "" : "ν";
+                                    subStr += !truthTable[j].truthArray[i] ? truthTable[j].stringDesc : "!" + truthTable[j].stringDesc;
+                                }
                             }
                         }
                         subStr += ")";

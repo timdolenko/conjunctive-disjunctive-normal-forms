@@ -31,7 +31,7 @@ namespace KDM_Lab_3
 
             for (int i = 0; i < formula.truthTable.Count; i++)
             {
-                int columnWith = formula.truthTable[i].stringDesc.Length > 2 ? formula.truthTable[i].stringDesc.Length * 10 : 20;
+                int columnWith = formula.truthTable[i].stringDesc.Length > 2 ? formula.truthTable[i].stringDesc.Length * 15 : 20;
                 dataGridViewWidth += columnWith;
                 dataGridView.Columns[i].Width = columnWith;
                 dataGridView.Columns[i].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
@@ -41,7 +41,7 @@ namespace KDM_Lab_3
 
             dataGridView.Width = dataGridViewWidth;
             this.Width = dataGridView.Width + 60;
-            dataGridView.Height = formula.truthTable.First().truthArray.Length * 20;
+            dataGridView.Height = (formula.truthTable.First().truthArray.Length + 1) * 20;
             this.Height = dataGridView.Height + 180;
 
             for (int i = 0; i < formula.truthTable.First().truthArray.Length; i++)
